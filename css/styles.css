@@ -46,7 +46,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 .button-text:hover ,
-.button-text:active{
+.button-text:focus{
     background-color:#404BBF;
 }
 .button-text{
