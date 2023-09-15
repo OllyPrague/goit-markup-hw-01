@@ -126,17 +126,17 @@ background: var(--NAVY-BLUE, #2e2f42);
 }
 .logo-last{
     color:  #4d5ae5;
-    font-family: "Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
+line-height: 1.17;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 21px; 
 letter-spacing: 0.54px;
 text-transform: uppercase;
-line-height: 1.17;
 
 }
-.span-2{
+.span-las{
     color: #f4f4fd;
 }
 
