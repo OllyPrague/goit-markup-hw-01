@@ -125,10 +125,10 @@ letter-spacing: 0.32px;
 }
 footer{
    
-background: var(--NAVY-BLUE, #2e2f42);
+background:  #2e2f42;
 }
 .section{
-background: var(--NAVY-BLUE, #2e2f42);
+background:  #2e2f42;
 
 }
 .logo-last{
