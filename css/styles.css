@@ -1,6 +1,7 @@
 .logo {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color:  #4d5ae5;
 font-family: "Raleway";
+line-height: 1.17;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -9,7 +10,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .span{
-    color: var(--IRIS, #4D5AE5);
+    color: #2e2f42;
 }
 .header-list {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -124,7 +125,7 @@ background: var(--NAVY-BLUE, #2e2f42);
 
 }
 .logo-last{
-    color: var(--CLOUD, #F4F4FD);
+    color:  #4d5ae5;
     font-family: "Raleway";
 font-size: 18px;
 font-style: normal;
@@ -132,6 +133,10 @@ font-weight: 700;
 line-height: 21px; 
 letter-spacing: 0.54px;
 text-transform: uppercase;
+line-height: 1.17;
 
+}
+.span-2{
+    color: #f4f4fd;
 }
 
