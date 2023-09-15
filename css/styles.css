@@ -14,7 +14,7 @@ text-transform: uppercase;
 }
 .header-list {
     color: var(--NAVY-BLUE, #2E2F42);
-font-family: "Roboto";
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -23,7 +23,7 @@ letter-spacing: 0.32px;
 }
 .address {
     color: var(--SLATE, #434455);
-font-family:"Roboto";
+font-family:"Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -36,30 +36,34 @@ body {
     background-color:#FFFFFF;
 }
 .name{
-    color: var(--WHITE, #FFF);
-text-align: center;
-font-family: "Roboto";
+    color: #ffffff;
+    text-align: center;
+font-family: "Roboto", sans-serif;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
 line-height: 60px;
-letter-spacing: 1.12px;
+letter-spacing: 0.02em;
 }
 .button-text {
-    color: var(--WHITE, #FFF);
-font-family: "Roboto";
+    background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0.64px;
+letter-spacing: 0.04em;
 border-radius: 4px;
-background: var(--IRIS, #4D5AE5);
+line-height: 1.5;
+color: #ffffff ;
+cursor: pointer;
+
+
 
 }
 .name-text{
     color: var(--NAVY-BLUE, #2E2F42);
-font-family: "Roboto";
+font-family: "Roboto", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -68,7 +72,7 @@ letter-spacing: 0.4px;
 }
 .main-text{
     color: var(--SLATE, #434455);
-font-family: "Roboto";
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -78,7 +82,7 @@ letter-spacing: 0.32px;
 .team-name{
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -90,7 +94,7 @@ letter-spacing: 0.32px;
     color: var(--NAVY-BLUE, #2E2F42);
     line-height: 1.11;
 text-align: center;
-font-family: "Roboto";
+font-family: "Roboto", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -100,7 +104,7 @@ letter-spacing: 0.4px;
 .person-text{
     color: var(--SLATE, #434455);
 text-align: center;
-font-family: "Roboto";
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -109,7 +113,7 @@ letter-spacing: 0.32px;
 }
 .footer-text{
     color: var(--CLOUD, #F4F4FD);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -138,5 +142,8 @@ text-transform: uppercase;
 }
 .spanlas{
     color: #f4f4fd;
+}
+.section{
+    background-color: #2e2f42;
 }
 
