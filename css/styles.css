@@ -119,9 +119,6 @@ footer{
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .section{
-    width: 1440px;
-height: 600px;
-flex-shrink: 0;
 background: var(--NAVY-BLUE, #2E2F42);
 
 }
