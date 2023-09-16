@@ -89,7 +89,7 @@ letter-spacing: 0.32px;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; 
+    line-height: 1.11; 
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -149,4 +149,10 @@ text-transform: uppercase;
 }
 .section{
     background-color: #2e2f42;
+}
+.box {
+    background-color: #F4F4FD;
+}
+.first{
+    background-color: #FFFFFF;
 }
