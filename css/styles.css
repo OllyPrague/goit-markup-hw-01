@@ -76,7 +76,7 @@ line-height: 1.5;
 color: #ffffff ;
 cursor: pointer;
 }
-.name-text{
+.main-list .name-text{
 color: var(--NAVY-BLUE, #2E2F42);
 font-family: "Roboto", sans-serif;
 font-size: 20px;
@@ -86,7 +86,7 @@ line-height: 1.2;
 letter-spacing: 0.4px;
 background-color: red;
 }
-.main-text{
+.main-list .main-text{
 color: var(--SLATE, #434455);
 font-family: "Roboto", sans-serif;
 font-size: 16px;
