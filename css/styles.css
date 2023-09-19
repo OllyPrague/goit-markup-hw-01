@@ -11,8 +11,8 @@ text-transform: uppercase;
 .span{
     color: #2e2f42;
 }
-.header-list {
-    color: var(--NAVY-BLUE, #2E2F42);
+.header-list .header-list-item {
+    color: #2e2f42;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
@@ -20,14 +20,29 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
 }
-.address {
-    color: var(--SLATE, #434455);
+.header-list-link{
+    color: #2e2f42;
+}
+.header-list-link:hover {
+    color: #404bbf;
+}
+.header-list-link:focus {
+    color: #404bbf;
+}
+.address .address-link{
+    color: #434455;
 font-family:"Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; 
 letter-spacing: 0.32px;
+}
+.address-link:hover{
+    color: #404bbf;
+}
+.address-link:focus{
+    color: #404bbf;   
 }
 body {
     font-family:"Roboto", sans-serif;
@@ -45,9 +60,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 .button-text:hover {background-color:#404BBF;}
-.button-text:focus {
-    background-color:#404BBF;
-}
+.button-text:focus {background-color:#404BBF;}
 .button-text{
 background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
@@ -85,7 +98,7 @@ letter-spacing: 0.32px;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px; 
+    line-height: 1.11; 
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -145,9 +158,5 @@ text-transform: uppercase;
 .section{
     background-color: #2e2f42;
 }
-.box {
-    background-color: #F4F4FD;
-}
-.first{
-    background-color: #FFFFFF;
-}
+
+
