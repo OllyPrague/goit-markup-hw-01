@@ -108,7 +108,7 @@ letter-spacing: 0.32px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.person-name{   
+.team-list .person-name{   
     color: var(--NAVY-BLUE, #2E2F42);    
     line-height: 1.2;
     text-align: center;
@@ -121,7 +121,7 @@ letter-spacing: 0.32px;
 .team-list .team-list-item{
     background-color: #FFFFFF;
 }
-.person-text{
+.team-list .person-text{
 color: var(--SLATE, #434455);
 text-align: center;
 font-family: "Roboto", sans-serif;
