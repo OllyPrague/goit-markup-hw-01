@@ -29,6 +29,9 @@ letter-spacing: 0.32px;
 .header-list-link:focus {
     color: #404bbf;
 }
+.address{
+    font-style: normal;
+}
 .address .address-link{
     color: #434455;
 font-family:"Roboto", sans-serif;
